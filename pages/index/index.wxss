@@ -1,0 +1,66 @@
+#tapLongTest {
+    background-color: red;
+    height: 50px;
+}
+
+.ms-cell{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    align-items:center;
+}
+
+/*old code*/
+
+
+.smart_page {
+    height: 80%;
+    background-color: pink;
+    width: 98%;
+    overflow: hidden;
+}
+
+.absPanel {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 400px;
+}
+
+.absContent {
+    position: relative;
+    top: -50%;
+    left: -50%;
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+}
+.flex-wrp{
+  height: 100px;
+  display:flex;  
+}
+.flex-item{
+  width: 25%;
+  height: 100px;
+  color: black;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+}
+.num_panel {
+    width: 80%;
+    height: 80%;
+    border: 2px solid #379082;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.msBorder{
+    border: 1px solid gray;
+}

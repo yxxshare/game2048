@@ -1,0 +1,53 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.ac{
+  text-align: center;
+}
+
+.numberItem{
+  display:inline-block;
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.numberCell {
+  position:absolute;
+  top:3px;
+  left:3px;
+  bottom:3px;
+  right:3px;
+  line-height:50rpx;
+  border-radius: 4px;
+}
+
+.full{
+  width: 100%;
+  height: 100%;
+}
+
+.bc_red{
+  background-color: red;
+}
+
+.ccp{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.ccc{
+  position: relative;
+  top: -50%;
+  left: -50%;
+  height: 100%;
+  width: 100%;
+}

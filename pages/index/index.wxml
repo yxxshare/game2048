@@ -1,0 +1,36 @@
+<view class="smart_page" 
+  catchtouchmove = "touchmoveHandler"
+  catchtouchstart="touchstartHandler" 
+  catchtouchend="touchendHandler">
+
+  <!--<view wx:for="{{iArr}}" wx:for-item="iItem" wx:key="pk" class="flex-wrp" style="flex-direction:row;" >
+    <view wx:for="{{iItem}}" wx:for-item="jItem" wx:key="pk" class="flex-item">
+        <view class="num_panel" wx:if="{{0 != jItem.value}}">
+            {{jItem.value}}
+        </view>
+    </view>
+  </view>-->
+
+  <view class="ccp" style="width:600rpx;height:600rpx;">
+  
+    <view class="ccc ac" >
+        <view wx:for="{{iArr}}" wx:for-item="iItem" wx:key="pk" style="line-height:0;">
+            <view wx:for="{{iItem}}" wx:for-item="jItem" wx:key="pk" class="numberItem" >
+                <view class="full" style="position:relative;">
+                    <view class="msBorder numberCell" style="font-size:34rpx;">
+                        
+                        <view class="ms-cell" style="height:100%;">
+                            <view class="show ac" style="width:100%;">
+                                {{jItem.value}}
+                            </view>
+
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+  
+  </view>
+
+</view>
